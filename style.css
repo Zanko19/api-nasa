@@ -4,13 +4,68 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f8f8f8; /* Ajout d'une couleur de fond légère */
 }
 
 #apod-container {
     max-width: 800px;
     margin: 20px auto;
-    padding: 20px;
-    background-color: #f4f4f4;
+    background: linear-gradient(to bottom, #0d1b2a, #415a77); /* Dégradé rappelant l'espace */
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Assure que le contenu ne dépasse pas le conteneur */
+    color: #ffffff; /* Couleur du texte pour une meilleure lisibilité */
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px; /* Ajout de padding à gauche */
+    display: flex; /* Utilisation de flexbox pour organiser les éléments en ligne */
+    flex-wrap: wrap; /* Permet le retour à la ligne si nécessaire */
+}
+
+#title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    flex: 100%; /* L'élément occupe 100% de la largeur par défaut */
+}
+
+#apod-image {
+    width: 450px; /* Limite la largeur de l'image */
+    height: 450px; /* Permet à l'image de conserver ses proportions */
+    margin-top: 10px;
+    margin-right: 10px; /* Marge à droite de l'image */
+    border-radius: 8px;
+    overflow: hidden; /* Masque le dépassement de l'image si nécessaire */
+}
+
+#explanation {
+    flex: 1; /* L'explication occupe le reste de l'espace disponible */
+    margin-top: 10px;
+}
+
+#controls {
+    text-align: center;
+    margin-top: 10px; /* Marge au-dessus des boutons */
+}
+
+button {
+    padding: 8px 12px;
+    font-size: 1em;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+input[type="date"] {
+    padding: 8px;
+    font-size: 1em;
+    margin-right: 5px;
+}
+
+/* Ajout d'une règle de média query pour gérer la largeur de l'écran */
+@media screen and (max-width: 600px) {
+    #apod-container {
+        max-width: 90%; /* Ajustement pour les petits écrans */
+        padding-left: 10px;
+        padding-right: 10px;
+        display:flex /* Ajustement de padding pour les petits écrans */
+    }
 }

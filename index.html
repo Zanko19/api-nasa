@@ -3,28 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>APOD Viewer</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Lien vers votre fichier CSS -->
+    <title>Pic of the day NASA</title>
+    <link rel="stylesheet" href="style.css"> <!-- Lien vers votre fichier CSS -->
 </head>
 <body>
     <div id="apod-container">
         <!-- Contenu de l'API APOD sera inséré ici -->
-        <!-- Ajoutez ces éléments à l'intérieur du div #apod-container dans votre fichier HTML -->
-<div id="apod-container">
-    <h2 id="title"></h2>
-    <p id="date"></p>
-    <img id="apod-image" alt="Astronomy Picture of the Day">
-    <p id="explanation"></p>
-    
-    <div id="controls">
-        <button id="prevButton">Previous</button>
-        <button id="nextButton">Next</button>
-        <input type="date" id="dateInput">
-        <button id="searchButton">Search</button>
+        <h2 id="title"></h2><div id="controls">
+            <button id="prevButton">Previous</button>
+            <button id="nextButton">Next</button>
+            <input type="date" id="dateInput">
+            <button id="searchButton">Search</button>
+        </div>
+        <p id="date"></p>
+        <img id="apod-image" alt="Astronomy Picture of the Day">
+        <p id="explanation"></p>
+        
+        
     </div>
-</div>
 
-    </div>
     <script src="script.js"></script> <!-- Lien vers votre fichier JavaScript -->
 </body>
 </html>
