@@ -56,6 +56,13 @@ body {
 #controls {
     text-align: center;
     margin-top: 10px; /* Marge au-dessus des boutons */
+    background: linear-gradient(to bottom, #0d1b2a, #415a77); /* Dégradé rappelant l'espace */
+    display: flex;
+}
+#prevButton {
+    background-color: aquamarine;
+    border-radius: 5px;
+
 }
 
 button {
