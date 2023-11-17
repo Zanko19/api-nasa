@@ -4,6 +4,7 @@ body {
     font-family: 'Arial', sans-serif;
     background-image: url(./img/enigma-8105958_1280.jpg);
     background-repeat: no-repeat;
+    height: 100vh;
     background-size: cover;
     background-position: center;
     margin: 0;
