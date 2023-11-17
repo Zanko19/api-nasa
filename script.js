@@ -1,5 +1,3 @@
-// Remplacez le contenu du fichier script.js par le code ci-dessous
-
 document.addEventListener('DOMContentLoaded', function () {
     const apiKey = 'IhgIRdXRBb5EFoHOUBcCLDQO822YVcDectqkRG0Q';
     let currentDate = new Date(); // Initialise avec la date actuelle
@@ -38,6 +36,9 @@ document.addEventListener('DOMContentLoaded', function () {
                 console.error('Error:', error);
             });
     }
+
+    // Boîte d'alerte avec explication au chargement de la page
+    alert("Ce site permet d'avoir une image de la NASA par jour. Vous pouvez retourner à la date de votre anniversaire, par exemple, pour voir quelle photo a été publiée ce jour-là. De plus, une explication est fournie à chaque image.");
 
     // Bouton "Previous"
     document.getElementById('prevButton').addEventListener('click', function () {
