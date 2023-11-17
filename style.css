@@ -9,7 +9,8 @@ body {
     background-position: center;
     margin: 0;
     padding: 0;
-    background-color: #f8f8f8; /* Ajout d'une couleur de fond légère */
+    background-color: #f8f8f8;
+    overflow: hidden; /* Ajout d'une couleur de fond légère */
 }
 
 #apod-container {
