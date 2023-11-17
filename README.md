@@ -29,8 +29,8 @@ Assurez-vous d'avoir [Node.js](https://nodejs.org/) installé sur votre machine.
 
 ## Problèmes Connus :warning:
 
-Liste des problèmes connus, le cas échéant.
+Pas vraiment de gros soucis cette fois, en tout cas rien que je n'ai pas pu régler tout seul.
 
-## Droits d'Auteur © :calendar:
+## © Guillaume Dedeurwaerder © 
+### :calendar: 17/11/2023
 
-Date uniquement
