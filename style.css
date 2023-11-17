@@ -59,10 +59,22 @@ body {
     background: linear-gradient(to bottom, #0d1b2a, #415a77); /* Dégradé rappelant l'espace */
     display: flex;
 }
+#nextButton {
+    background-color: aquamarine;
+    border-radius: 5px;
+}
 #prevButton {
     background-color: aquamarine;
     border-radius: 5px;
 
+}
+#searchButton {
+    background-color: aquamarine;
+    border-radius: 5px;
+}
+#dateInput {
+    background-color: aquamarine;
+    border-radius: 5px;
 }
 
 button {
