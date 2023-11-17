@@ -4,7 +4,7 @@ body {
     font-family: 'Arial', sans-serif;
     background-image: url(./img/enigma-8105958_1280.jpg);
     background-repeat: no-repeat;
-    height: 100vh;
+    min-height: 100vh;
     background-size: cover;
     background-position: center;
     margin: 0;
@@ -29,6 +29,7 @@ body {
 }
 
 #title {
+    text-align: center;
     font-size: 1.5em;
     margin-bottom: 10px;
     flex: 100%; /* L'élément occupe 100% de la largeur par défaut */
@@ -70,11 +71,14 @@ input[type="date"] {
 }
 
 /* Ajout d'une règle de média query pour gérer la largeur de l'écran */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 705px) {
     #apod-container {
         max-width: 90%; /* Ajustement pour les petits écrans */
         padding-left: 10px;
         padding-right: 10px;
         display:flex /* Ajustement de padding pour les petits écrans */
     }
-}
+    body {
+        overflow: scroll;
+    }
+    }
