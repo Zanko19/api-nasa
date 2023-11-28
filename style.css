@@ -86,6 +86,7 @@ body {
 }
 #date {
     font-family: "spaceage", sans-serif;
+    border-radius: 5px;
 }
 #datebutton {
     background: linear-gradient(to bottom, #0d1b2a, #415a77); /* Dégradé rappelant l'espace */
