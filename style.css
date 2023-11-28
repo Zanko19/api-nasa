@@ -89,7 +89,8 @@ body {
     border-radius: 5px;
 }
 #datebutton {
-    background: linear-gradient(to bottom, #0d1b2a, #415a77); /* Dégradé rappelant l'espace */
+    background: linear-gradient(to bottom, #0d1b2a, #415a77);
+    border-radius: 5px; /* Dégradé rappelant l'espace */
 }
 
 button {

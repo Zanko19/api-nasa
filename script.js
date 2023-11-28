@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     // Boîte d'alerte avec explication au chargement de la page
-    alert("Ce site permet de voir une image de la NASA par jour. Vous pouvez retourner à la date de votre anniversaire(de cette année), par exemple, pour voir quelle photo a été publiée ce jour-là. De plus, une explication est fournie à chaque photo.");
+    alert("Ce site permet de voir une image de la NASA par jour. Vous pouvez retourner, par exemple, à la date de votre anniversaire(de cette année) pour voir quelle photo a été publiée ce jour-là. De plus, une explication est fournie à chaque photo.");
 
     // Bouton "Previous"
     document.getElementById('prevButton').addEventListener('click', function () {
