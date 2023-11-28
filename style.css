@@ -10,7 +10,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f8f8f8;
-    overflow: hidden; /* Ajout d'une couleur de fond légère */
+    overflow: auto; /* Ajout d'une couleur de fond légère */
 }
 
 #apod-container {
@@ -19,7 +19,7 @@ body {
     background: linear-gradient(to bottom, #0d1b2a, #415a77); /* Dégradé rappelant l'espace */
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    overflow: hidden; /* Assure que le contenu ne dépasse pas le conteneur */
+    overflow:hidden; /* Assure que le contenu ne dépasse pas le conteneur */
     color: #ffffff; /* Couleur du texte pour une meilleure lisibilité */
     padding-left: 20px;
     padding-bottom: 20px;
@@ -60,21 +60,35 @@ body {
     display: flex;
 }
 #nextButton {
-    background-color: aquamarine;
+    background: linear-gradient(to bottom, #0d1b2a, #415a77); /* Dégradé rappelant l'espace */
     border-radius: 5px;
+    font-family: "spaceage", sans-serif;
+    color: #f8f8f8;
 }
 #prevButton {
-    background-color: aquamarine;
+    background: linear-gradient(to bottom, #0d1b2a, #415a77); /* Dégradé rappelant l'espace */
     border-radius: 5px;
+    color: #f8f8f8;
+    font-family: "spaceage", sans-serif;
 
 }
 #searchButton {
-    background-color: aquamarine;
+    background: linear-gradient(to bottom, #0d1b2a, #415a77); /* Dégradé rappelant l'espace */
     border-radius: 5px;
+    color: #f8f8f8;
+    font-family: "spaceage", sans-serif;
 }
 #dateInput {
-    background-color: aquamarine;
+    background: linear-gradient(to bottom, #0d1b2a, #415a77); /* Dégradé rappelant l'espace */
     border-radius: 5px;
+    color: #f8f8f8;
+    font-family: "spaceage", sans-serif;
+}
+#date {
+    font-family: "spaceage", sans-serif;
+}
+#datebutton {
+    background: linear-gradient(to bottom, #0d1b2a, #415a77); /* Dégradé rappelant l'espace */
 }
 
 button {
