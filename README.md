@@ -2,7 +2,7 @@
 
 ## Description
 
-Bienvenue dans l'API NASA! Ce projet vous permet d'explorer une image différente de la NASA chaque jour. Vous pouvez revenir à des dates spécifiques, comme votre anniversaire, pour voir quelle photo a été publiée ce jour-là. Chaque image est accompagnée d'une explication. :book:
+Bienvenue dans l'API NASA!! Ce projet vous permet d'explorer une image différente de la NASA chaque jour. Vous pouvez revenir à des dates spécifiques, comme votre anniversaire, pour voir quelle photo a été publiée ce jour-là. Chaque image est accompagnée d'une explication. :book:
 
 ## Aperçu :camera:
 
